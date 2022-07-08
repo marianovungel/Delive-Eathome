@@ -15,6 +15,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 99;
 }
 .logo{
     width: 50px;
@@ -132,4 +133,5 @@ button{
     position: absolute;
     top: 90px;
     right: 80px;
+    z-index: 10;
 }
